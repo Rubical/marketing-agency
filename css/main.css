@@ -1,0 +1,252 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/Gordita/Gordita-Regular.woff2"),
+    url("../fonts/Gordita/Gordita-Regular.woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/Gordita/Gordita-RegularItalic.woff2"),
+    url("../fonts/Gordita/Gordita-RegularItalic.woff");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/Gordita/Gordita-Medium.woff2"),
+    url("../fonts/Gordita/Gordita-Medium.woff");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/Gordita/Gordita-Bold.woff2"),
+    url("../fonts/Gordita/Gordita-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/Gordita/Gordita-Black.woff2"),
+    url("../fonts/Gordita/Gordita-Black.woff");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Regular.woff2"),
+    url("../fonts/Inter/Inter-Regular.woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Italic.woff2"),
+    url("../fonts/Inter/Inter-Italic.woff");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Medium.woff2"),
+    url("../fonts/Inter/Inter-Medium.woff");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Bold.woff2"),
+    url("../fonts/Inter/Inter-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+body {
+    font-family: Gordita;
+    color: #161E2E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.btn {
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 22px;
+font-size: 14px;
+font-weight: 500;
+color: #F4FBF7;
+background-color: #00B871;
+border-radius: 4px;
+}
+
+
+/* Header */
+
+
+.header {
+    background-color: white;
+    padding-top: 16px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 134px;
+}
+.logo {
+    display: flex;
+    width: 64px;
+    height: 33px;
+    position: relative;
+    padding-top: 7px;
+}
+.logo-text {
+    color: #161E2E;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    z-index: 10;
+}
+.logo-background {
+    width: 52px;
+    height: 33px;
+    background-color: #00B871;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+}
+
+/* Nav */
+
+.nav-list {
+    display: flex;
+    column-gap: 25px;
+    font-weight: 500;
+    padding-top: 13px;
+}
+
+.nav-link {
+    color: #161E2E;
+}
+
+.nav-vector1 {
+    padding-top: 9px;
+}
+
+.nav-btn-text {
+   padding: 14px 0 14px 32px;
+}
+
+.nav-vector {
+  padding: 3px 32px 0 0;
+}
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+.header-content {
+    margin-top: 70px;
+    max-width: 580px;
+}
+.header-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #00B871;
+    margin-bottom: 24px;
+}
+.header-heading {
+    font-weight: 500;
+    font-size: 48px;
+    color: #161e2e;
+    margin-bottom: 16px;
+    line-height: 68px;
+}
+
+.header-content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.header-content .btn {
+    width: 195px;
+    height: 56px;
+    font-size: 18px;
+}
+.text {
+}
+.header-img {
+    width: 580px;
+    height: 610px;
+    position: relative;
+    margin-right: -20px;
+}
+.header-img-background {
+    position: absolute;
+    width: 359px;
+    height: 465px;
+    background-color: #00B871;
+    z-index: 1;
+    border-radius: 22px;
+    position: absolute;
+    left: 55px;
+    bottom: 37px;
+
+}
+.totalproduct {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.hero {
+    position: absolute;
+    left: 0;
+    bottom: 37px;
+    z-index: 4;
+}
+.useractivity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.header-googleads {
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+    z-index: 3;
+}
