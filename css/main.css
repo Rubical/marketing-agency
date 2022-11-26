@@ -175,6 +175,7 @@ border-radius: 4px;
 .header-row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 .header-content {
     margin-top: 70px;
@@ -205,14 +206,14 @@ border-radius: 4px;
     height: 56px;
     font-size: 18px;
 }
-.text {
-}
+
 .header-img {
     width: 580px;
     height: 610px;
     position: relative;
     margin-right: -20px;
 }
+
 .header-img-background {
     position: absolute;
     width: 359px;
@@ -250,3 +251,103 @@ border-radius: 4px;
     right: 40px;
     z-index: 3;
 }
+
+/* Service-advertising*/
+
+.advertising {
+    background-color: #F4FBF7;
+    padding: 35px 35px;
+    margin-bottom: 64px;
+}
+
+.advertising-row {
+    display: flex;
+    column-gap: 76px;
+    justify-content: center;
+}
+
+.bitbucket {
+    margin-top: 0px;
+}
+
+.watch {
+    margin-top: 4px;
+}
+
+.facebook {
+    margin-top: 5px;
+}
+
+.atlassian {
+    filter: grayscale(100%) opacity(35%);
+    margin-top: 2px;
+}
+
+.audi {
+    width: 100px;
+    height: auto;
+    margin-top: 2px;
+}
+
+.who-we-are-row {
+    display: flex;
+    justify-content: space-between;
+}
+.who-we-are-content {
+    margin-top: 136px;
+    max-width: 480px;
+}
+.who-we-are-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #00B871;
+    margin-bottom: 24px;
+}
+.who-we-are-heading {
+    font-weight: 500;
+    font-size: 32px;
+    color: #161e2e;
+    margin-bottom: 16px;
+    line-height: 46px;
+    max-width: 380px;
+}
+
+.who-we-are-content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+.who-we-are-content .btn {
+    width: 154px;
+    height: 48px;
+    font-size: 18px;
+    background-color: #161E2E;
+    font-size: 14px;
+}
+.who-wer-are-img {
+    width: 600px;
+    height: 630px;
+    position: relative;
+    margin-right: -20px;
+}
+.who-we-are-img-background {
+}
+.totalproduct-who-we-are {
+}
+.hero-who-we-are {
+    position:
+
+}
+.useractivity-who-we-are {
+}
+.curve {
+}
+.ellipsebig {
+}
+.ellipsemedium {
+}
+.ellipsesmall {
+}
+.dot {
+}
+
