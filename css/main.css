@@ -289,6 +289,7 @@ border-radius: 4px;
     margin-top: 2px;
 }
 
+
 /* Who we are*/
 
 .who-we-are-row {
@@ -434,6 +435,14 @@ border-radius: 4px;
 }
 .card {
     padding: 24px 24px;
+    border-radius: 8px;
+    transition: background-color 500ms ease-out, box-shadow 300ms ease-out;
+}
+
+.card:hover {
+    background-color: #fff;
+    box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+    
 }
 
 .card h3 {
@@ -460,4 +469,48 @@ border-radius: 4px;
     font-size: 14px;
     padding-left: 32px;
     column-gap: 15px;
+}
+
+/* Stats section */
+
+.stats-content {
+    margin-top: 64px;
+    background-color: #161E2E;
+    height: 370px;
+    color: #fff;
+    padding: 75px 80px 85px 80px;
+    border-radius: 8px;
+ 
+}
+.stats-content h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+}
+.stats-element {
+    text-align: center;
+
+    
+}
+.stats-element h4 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 68px;
+    padding-right: 13px;
+    margin-bottom: 4px;
+
+}
+
+.stats-element p {
+}
+
+.stats-el-img {
+    padding-top: 16px;
+
 }
