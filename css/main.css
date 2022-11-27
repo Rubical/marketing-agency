@@ -424,7 +424,7 @@ border-radius: 4px;
 .why-choose-us-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12px;
+    margin-bottom: 32px;
 }
 
 .card-block {
