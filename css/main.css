@@ -481,8 +481,8 @@ border-radius: 4px;
     color: #fff;
     padding: 75px 80px 85px 80px;
     border-radius: 8px;
- 
 }
+
 .stats-content h3 {
     font-weight: 500;
     font-size: 32px;
@@ -490,28 +490,92 @@ border-radius: 4px;
     text-align: center;
     margin-bottom: 64px;
 }
+
 .stats-row {
     display: flex;
     justify-content: space-between;
 }
+
 .stats-element {
     text-align: center;
-
-    
 }
+
 .stats-element h4 {
     font-weight: 500;
     font-size: 48px;
     line-height: 68px;
     padding-right: 13px;
     margin-bottom: 4px;
-
-}
-
-.stats-element p {
 }
 
 .stats-el-img {
     padding-top: 16px;
+}
 
+/* What we do */
+
+.what-we-do {
+    padding-top: 64px;
+    margin-bottom: 64px;
+}
+
+.what-we-do-header {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.what-we-do-slogan {
+    text-align: center;
+    margin-bottom: 64px;
+    line-height: 28px;
+}
+
+.design-header {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 48px;
+}
+
+.design-row {
+}
+.img-block {
+    width: 405px;
+    height: 582px;
+    float: left;
+    position: relative;
+}
+.design-img {
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    margin-right: 68px;
+}
+.webdesign {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.card-block {
+}
+
+.design-card-block .card {
+    height: 217px;
+}
+
+.tick-wrapper {
+    display: flex;
+    
+}
+
+.design-card-block .card:hover {
+    background-color: #F4FBF7;
+}
+.tick {
+    padding-right: 40px;
 }
