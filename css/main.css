@@ -279,7 +279,6 @@ border-radius: 4px;
 }
 
 .atlassian {
-    filter: grayscale(100%) opacity(35%);
     margin-top: 2px;
 }
 
@@ -288,6 +287,7 @@ border-radius: 4px;
     height: auto;
     margin-top: 2px;
 }
+
 
 
 /* Who we are*/
@@ -475,6 +475,7 @@ border-radius: 4px;
 
 .stats-content {
     margin-top: 64px;
+    margin-bottom: 64px;
     background-color: #161E2E;
     height: 370px;
     color: #fff;
