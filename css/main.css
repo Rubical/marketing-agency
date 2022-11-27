@@ -257,7 +257,7 @@ border-radius: 4px;
 .advertising {
     background-color: #F4FBF7;
     padding: 35px 35px;
-    margin-bottom: 64px;
+    margin-bottom: 84px;
 }
 
 .advertising-row {
@@ -295,6 +295,7 @@ border-radius: 4px;
     display: flex;
     justify-content: space-between;
     column-gap: 100px;
+    margin-bottom: 24px;
 }
 
 .who-we-are-content {
@@ -404,3 +405,59 @@ border-radius: 4px;
     z-index: 2;
 }
 
+/* Why choose us section */
+
+.why-choose-us {
+    background-color: #F4FBF7;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.why-choose-us-header {
+    max-width: 499px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 32px;
+}
+
+.why-choose-us-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.card-block {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card {
+    padding: 24px 24px;
+}
+
+.card h3 {
+    padding-top: 36px;
+    width: 213px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.card p {
+    padding-top: 12px;
+    max-width: 272px;
+    line-height: 27px;
+}
+
+.why-choose-us-img {
+    border-radius: 24px;
+}
+
+.why-choose-us-content .btn {
+    width: 160px;
+    height: 48px;
+    font-size: 14px;
+    padding-left: 32px;
+    column-gap: 15px;
+}
