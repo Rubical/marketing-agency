@@ -118,7 +118,7 @@ border-radius: 4px;
 .header-nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 134px;
+    margin-bottom: 74px;
 }
 .logo {
     display: flex;
@@ -294,11 +294,14 @@ border-radius: 4px;
 .who-we-are-row {
     display: flex;
     justify-content: space-between;
+    column-gap: 100px;
 }
+
 .who-we-are-content {
     margin-top: 136px;
     max-width: 480px;
 }
+
 .who-we-are-text {
     font-weight: 500;
     font-size: 16px;
@@ -319,6 +322,7 @@ border-radius: 4px;
     line-height: 28px;
     margin-bottom: 32px;
 }
+
 .who-we-are-content .btn {
     width: 154px;
     height: 48px;
@@ -326,30 +330,77 @@ border-radius: 4px;
     background-color: #161E2E;
     font-size: 14px;
 }
-.who-wer-are-img {
-    width: 600px;
-    height: 630px;
+
+.who-we-are-img {
+    width: 630px;
+    height: 660px;
     position: relative;
     margin-right: -20px;
 }
-.who-we-are-img-background {
-}
-.totalproduct-who-we-are {
-}
-.hero-who-we-are {
-    position:
 
+.who-we-are-img-background {
+    position: absolute;
+    width: 327px;
+    height: 424px;
+    background-color: #161E2E;
+    z-index: 2;
+    border-radius: 20px;
+    position: absolute;
+    left: 165px;
+    bottom: 75px;
 }
+
+.totalproduct-who-we-are {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.hero-who-we-are {
+    position: absolute;
+    left: 1px;
+    top: 17px;
+    z-index: 4;
+}
+
 .useractivity-who-we-are {
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    z-index: 3;
 }
 .curve {
+    position: absolute;
+    bottom: 90px;
+    right: 20px;
+    z-index: 1;
 }
 .ellipsebig {
+    position: absolute;
+    bottom: 110px;
+    left: 73px;
+    z-index: 2;
 }
 .ellipsemedium {
+    position: absolute;
+    top: 117px;
+    right: 184px;
+    z-index: 2;
 }
 .ellipsesmall {
+    position: absolute;
+    bottom: 347px;
+    right: 36px;
+    z-index: 2;
+  
 }
 .dot {
+    position: absolute;
+    bottom: 270px;
+    left: 115px;
+    z-index: 2;
 }
 
