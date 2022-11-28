@@ -539,9 +539,37 @@ border-radius: 4px;
     margin-bottom: 48px;
 }
 
-.img-block {
+.what-we-do-card-block {
+    margin-bottom: 128px;
+}
+
+.what-we-do-card-block .card {
+    height: 217px;
+}
+
+.tick-wrapper {
+    display: flex;
+}
+
+.tick-wrapper h4 {
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.what-we-do-card-block .card:hover {
+    background-color: #eef9f3dc;
+}
+
+.tick {
+    margin-right: 30px;
+}
+
+/* Design */
+
+.img-block-design {
     width: 405px;
     height: 582px;
+    margin-left: -20px;
     float: left;
     position: relative;
     margin-right: 68px;
@@ -562,31 +590,86 @@ border-radius: 4px;
     z-index: 3;
 }
 
-.what-we-do-card-block {
-    margin-bottom: 128px;
-}
+/* Digital advertising */
 
-.what-we-do-card-block .card {
-    height: 217px;
-}
 
-.tick-wrapper {
-    display: flex;
-}
-
-.tick-wrapper h4 {
-    font-weight: 500;
-    line-height: 26px;
-}
-
-.what-we-do-card-block .card:hover {
-    background-color: #F4FBF7;
-}
-
-.tick {
-    padding-right: 30px;
-}
-
-.digital-advert-img {
+.img-block-dig-advert {
     float: right;
+    width: 457px;
+    height: 581px;
+    position: relative;
 }
+
+.dig-advert-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+}
+
+.dig-advert-ads {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* SEO */
+
+.img-block-seo {
+    position: relative;
+    float: left;
+    width: 431px;
+    height: 582px;
+    margin-right: 68px;
+    margin-left: -20px;
+}
+.seo-img {
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    right: 0;
+}
+.seo-google-search {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Social media */
+
+.img-block-social-media {
+    float: right;
+    width: 462px;
+    height: 582px;
+    position: relative;
+    margin-right: -20px;
+}
+
+.social-media-img {
+    position: absolute;
+    border-radius: 24px;
+    bottom: 0;
+    left: 50px;
+    width: 351px;
+    height: 461.92px;
+}
+
+.soc-med-inst-first {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+}
+
+.soc-med-inst-second {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 250px;
+    height: 250px;
+}
+
