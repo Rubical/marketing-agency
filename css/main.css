@@ -532,50 +532,61 @@ border-radius: 4px;
     line-height: 28px;
 }
 
-.design-header {
+.what-we-do-sect-header {
     font-weight: 500;
     font-size: 32px;
     line-height: 46px;
     margin-bottom: 48px;
 }
 
-.design-row {
-}
 .img-block {
     width: 405px;
     height: 582px;
     float: left;
     position: relative;
+    margin-right: 68px;
 }
+
 .design-img {
     border-radius: 25px;
     position: absolute;
     right: 0;
     top: 0;
     z-index: 2;
-    margin-right: 68px;
 }
+
 .webdesign {
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 3;
 }
-.card-block {
+
+.what-we-do-card-block {
+    margin-bottom: 128px;
 }
 
-.design-card-block .card {
+.what-we-do-card-block .card {
     height: 217px;
 }
 
 .tick-wrapper {
     display: flex;
-    
 }
 
-.design-card-block .card:hover {
+.tick-wrapper h4 {
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.what-we-do-card-block .card:hover {
     background-color: #F4FBF7;
 }
+
 .tick {
-    padding-right: 40px;
+    padding-right: 30px;
+}
+
+.digital-advert-img {
+    float: right;
 }
