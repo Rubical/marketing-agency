@@ -620,16 +620,18 @@ border-radius: 4px;
     position: relative;
     float: left;
     width: 431px;
-    height: 582px;
+    height: 602px;
     margin-right: 68px;
     margin-left: -20px;
 }
+
 .seo-img {
     position: absolute;
     border-radius: 30px;
     top: 0;
     right: 0;
 }
+
 .seo-google-search {
     position: absolute;
     bottom: 0;
