@@ -536,7 +536,6 @@ border-radius: 4px;
 }
 
 .what-we-do-card-block {
-    padding-top: 64px;
     margin-bottom: 64px;
 }
 
@@ -563,6 +562,9 @@ border-radius: 4px;
 
 /* Design */
 
+.design-row {
+    padding-bottom: 64px;
+}
 
 .img-block-design {
     width: 405px;
@@ -590,7 +592,9 @@ border-radius: 4px;
 
 /* Digital advertising */
 
-
+.dig-advert-row {
+    padding-bottom: 64px;
+}
 
 .img-block-dig-advert {
     float: right;
@@ -614,6 +618,10 @@ border-radius: 4px;
 
 
 /* SEO */
+
+.seo-row {
+    padding-bottom: 64px;
+}
 
 .img-block-seo {
     position: relative;
@@ -786,4 +794,160 @@ border-radius: 4px;
 
 /* Reviews */
 
+
+/* Newsletter */
+
+.newsletter {
+    padding-top: 64px;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.newsletter-header {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 16px;
+}
+
+.newsletter-text {
+    line-height: 28px;
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+
+.newsletter-row {
+    margin-left: 240px;
+    display: flex;
+    width: 698px;
+    height: 110px;
+    box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+    border-radius: 4px;
+    padding: 24px 32px;
+    justify-content: space-between;
+}
+
+.newsletter-row-text {
+    color: #9BA4B0;
+    line-height: 28px;
+    margin-top: 17px;
+    font-weight: 400;
+}
+
+.newsletter-row .btn {
+    width: 197px;
+    height: 62px;
+    font-size: 24px;
+    color: #F4FBF7;
+}
+
+.footer {
+    background-color: #161E2E;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer-row {
+    display: flex;
+}
+
+.logo-column {
+    width: 300px;
+    margin-right: 125px;
+}
+
+.logo {
+    margin-bottom: 16px;
+}
+
+.logo-column .logo .logo-text {
+    color: #fff;
+}
+
+.logo-column p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.menu-column {
+    margin-bottom: 48px;
+}
+
+.menu-header {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.menu-item {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.menu-item a {
+    color: #fff;
+}
+
+.menu-item .nav-vector1 {
+    margin-right: 130px;
+    fill: #fff;
+}
+
+.contact-column {
+    margin-right: 130px;
+}
+
+.contact-column-header {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.phone-number {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 18px;
+    color: #00B871;
+}
+
+.e-mail {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #00B871;
+}
+
+.socials-insta {
+    margin-right: 42px;
+}
+
+.socials-facebook {
+    margin-right: 42px;
+}
+
+.socials-twitter {
+    padding-top: 4px;
+}
+
+hr {
+    height: 1px;
+    background-color: #2FDF84;
+    color: #2FDF84;
+    margin-bottom: 32px;
+}
+
+.footer-additional-row {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules {
+    display: flex;
+    column-gap: 24px;
+}
 
