@@ -713,9 +713,6 @@ border-radius: 4px;
 
 /* Blog */
 
-.blog {
-}
-
 .blog-header {
     font-weight: 500;
     font-size: 32px;
@@ -724,6 +721,7 @@ border-radius: 4px;
     color: #161E2E;
     margin-bottom: 16px;
 }
+
 .blog-text {
     font-size: 18px;
     line-height: 28px;
@@ -731,19 +729,23 @@ border-radius: 4px;
     color: #161E2E;
     margin-bottom: 41px;
 }
+
 .blog-card-row {
     display: flex;
     column-gap: 25px;
     margin-bottom: 64px;
 }
+
 .blog-card {
     box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
     border-radius: 10px;
 }
+
 .blog-card-img {
     margin-bottom: 26px;
     border-radius: 10px 10px 0 0;
 }
+
 .blog-card-title {
     line-height: 27px;
     color: #00B871;
@@ -751,6 +753,7 @@ border-radius: 4px;
     margin-left: 24px;
     margin-bottom: 16px;
 }
+
 .blog-card-header {
     line-height: 34px;
     font-size: 24px;
@@ -759,12 +762,12 @@ border-radius: 4px;
     margin-left: 24px;
     margin-bottom: 16px;
 }
+
 .card-text {
     font-size: 14px;
     line-height: 28px;
     color: #161E2E;
-    margin-bottom: 24px;
-    margin-left: 24px;
+    margin: 0 24px 24px 24px;
 }
 
 .blog-card .btn {
@@ -779,4 +782,8 @@ border-radius: 4px;
 .blog-card .btn img {
     padding-top: 2px;
 }
+
+
+/* Reviews */
+
 
