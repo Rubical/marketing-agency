@@ -951,3 +951,6 @@ hr {
     column-gap: 24px;
 }
 
+.rules a {
+    color: #fff;
+}
