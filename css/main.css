@@ -810,16 +810,21 @@ border-radius: 4px;
     text-align: center;
     margin-bottom: 24px;
 }
+
 .slider {
-    margin: 0 -155px;
-    overflow: ;
+    margin: 0 -145px;
+    max-width: 100%;
+    overflow: hidden;
 }
+
 .slider-line {
     display: flex;
     column-gap: 24px;
     padding: 48px 0;
     transition: all ease 1s;
+    
 }
+
 .slider-card {
     padding-top: 32px;
     padding-right: 32px;
@@ -827,6 +832,7 @@ border-radius: 4px;
     border-radius: 12px;
     width: 480px;
 }
+
 .slider-card-text {
     margin-bottom: 24px;
     margin-left: 32px;
@@ -835,16 +841,20 @@ border-radius: 4px;
     line-height: 27px;
     width: 420px;
 }
+
 .slider-card-profile {
     display: flex;
 }
+
 .slider-card-img {
     margin: 0 8px 32px 32px;
 }
+
 .client-name {
     font-size: 12px;
     font-weight: 500;
 }
+
 .post {
     font-size: 10px;
     font-weight: 400;
@@ -895,6 +905,8 @@ border-radius: 4px;
     font-size: 24px;
     color: #F4FBF7;
 }
+
+/* Footer */
 
 .footer {
     background-color: #161E2E;
