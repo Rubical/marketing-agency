@@ -108,6 +108,7 @@
     --who-we-are-btn-text: var(--black);
     --why-choose-us: var(--black);
     --card-hover: var(--purple);
+    transition: all 0.3s ease-in;
 }
 
 body {
@@ -125,15 +126,20 @@ body {
 }
 
 .btn {
-display: flex;
-justify-content: center;
-align-items: center;
-column-gap: 22px;
-font-size: 14px;
-font-weight: 500;
-color: #F4FBF7;
-background-color: #00B871;
-border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #F4FBF7;
+    background-color: #00B871;
+    border-radius: 4px;
+    transition: transform 0.1s ease-in;
+}
+
+.btn:hover {
+    transform: scale(1.05);
 }
 
 
