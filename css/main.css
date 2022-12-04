@@ -80,12 +80,42 @@
     font-weight: 700;
     font-display: swap;
 }
+:root {
+    --black: #161E2E;
+    --white: #fff;
+    --grey: #F4FBF7;
+    --purple: #0c172c;
+
+     /* Light mode */
+     --page-bg: var(--white);
+     --text-color: var(--black);
+     --logo: var(--black);
+     --nav-link: var(--black);
+     --advertising: var(--grey);
+     --who-we-are-btn: var(--black);
+     --who-we-are-btn-text: var(--white);
+     --why-choose-us: var(--grey);
+     --card-hover: var(--white);
+}
+
+.dark {
+    --page-bg: var(--black);
+    --text-color: var(--white);
+    --logo: var(--white);
+    --nav-link: var(--white);
+    --advertising: var(--black);
+    --who-we-are-btn: var(--white);
+    --who-we-are-btn-text: var(--black);
+    --why-choose-us: var(--black);
+    --card-hover: var(--purple);
+}
 
 body {
     font-family: Gordita;
-    color: #161E2E;
     font-size: 16px;
     font-weight: 400;
+    background-color: var(--page-bg);
+    color: var(--text-color);
 }
 
 .container {
@@ -111,7 +141,6 @@ border-radius: 4px;
 
 
 .header {
-    background-color: white;
     padding-top: 16px;
 }
 
@@ -128,7 +157,7 @@ border-radius: 4px;
     padding-top: 7px;
 }
 .logo-text {
-    color: #161E2E;
+    color: var(--logo);
     font-size: 12px;
     font-weight: 500;
     position: absolute;
@@ -155,7 +184,7 @@ border-radius: 4px;
 }
 
 .nav-link {
-    color: #161E2E;
+    color: var(--nav-link);
 }
 
 .nav-vector1 {
@@ -168,6 +197,41 @@ border-radius: 4px;
 
 .nav-vector {
   padding: 3px 32px 0 0;
+}
+
+.dark-mode-btn {
+    position: relative;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    width: 64px;
+    height: 35px;
+    background-color: #9BA4B0;
+    border-radius: 33px;
+    padding: 11px;
+    transition: background-color 0.2s ease-in;
+    order: 1;
+}
+
+.dark-mode-btn::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: left 0.2s ease-in;
+}
+
+.dark-mode-btn--active::before {
+    left: 33px;
+}
+
+.dark-mode-btn__icon {
+    z-index: 9;
 }
 
 /* Header content */
@@ -190,7 +254,6 @@ border-radius: 4px;
 .header-heading {
     font-weight: 500;
     font-size: 48px;
-    color: #161e2e;
     margin-bottom: 16px;
     line-height: 68px;
 }
@@ -255,7 +318,7 @@ border-radius: 4px;
 /* Service-advertising*/
 
 .advertising {
-    background-color: #F4FBF7;
+    background-color: var(--advertising);
     padding: 35px 35px;
     margin-bottom: 84px;
 }
@@ -313,7 +376,6 @@ border-radius: 4px;
 .who-we-are-heading {
     font-weight: 500;
     font-size: 32px;
-    color: #161e2e;
     margin-bottom: 16px;
     line-height: 46px;
     max-width: 380px;
@@ -329,8 +391,9 @@ border-radius: 4px;
     width: 154px;
     height: 48px;
     font-size: 18px;
-    background-color: #161E2E;
+    background-color: var(--who-we-are-btn);
     font-size: 14px;
+    color: var(--who-we-are-btn-text);
 }
 
 .who-we-are-img {
@@ -409,7 +472,7 @@ border-radius: 4px;
 /* Why choose us section */
 
 .why-choose-us {
-    background-color: #F4FBF7;
+    background-color: var(--why-choose-us);
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -440,7 +503,7 @@ border-radius: 4px;
 }
 
 .card:hover {
-    background-color: #fff;
+    background-color: var(--card-hover);
     box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
     
 }
@@ -553,7 +616,7 @@ border-radius: 4px;
 }
 
 .what-we-do-card-block .card:hover {
-    background-color: #eef9f3c5;
+    background-color: var(--card-hover);
 }
 
 .tick {
@@ -726,7 +789,6 @@ border-radius: 4px;
     font-size: 32px;
     line-height: 46px;
     text-align: center;
-    color: #161E2E;
     margin-bottom: 16px;
 }
 
@@ -734,7 +796,6 @@ border-radius: 4px;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
-    color: #161E2E;
     margin-bottom: 41px;
 }
 
@@ -765,7 +826,6 @@ border-radius: 4px;
 .blog-card-header {
     line-height: 34px;
     font-size: 24px;
-    color: #161E2E;
     font-weight: 500;
     margin-left: 24px;
     margin-bottom: 16px;
@@ -774,7 +834,6 @@ border-radius: 4px;
 .card-text {
     font-size: 14px;
     line-height: 28px;
-    color: #161E2E;
     margin: 0 24px 24px 24px;
 }
 
