@@ -191,6 +191,7 @@ body {
 
 .nav-link {
     color: var(--nav-link);
+    transition: color 0.1s ease-in;
 }
 
 .nav-vector1 {
@@ -205,6 +206,46 @@ body {
   padding: 3px 32px 0 0;
 }
 
+.nav-details-list {
+    padding: 24px;
+    box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+    border-radius: 12px;
+    position: absolute;
+    z-index: 15;
+    background-color: #fff;
+}
+
+.nav-details-list-item {
+    padding: 16px 100px 16px 16px;
+    list-style-position: inside;
+}
+
+.nav-details-list-item:hover {
+    background-color: #F4FBF7;
+}
+
+.nav1 {
+    list-style-image: url(../img/icons/design.svg);
+}
+
+.nav2 {
+    list-style-image: url(../img/icons/digital.svg);
+}
+
+.nav3 {
+    list-style-image: url(../img/icons/seo.svg);
+}
+
+.nav4 {
+    list-style-image: url(../img/icons/social.svg);
+ 
+}
+
+details[open] > summary {
+    color: #00B871; 
+}
+
+
 .dark-mode-btn {
     position: relative;
     margin-top: 7px;
@@ -217,6 +258,7 @@ body {
     padding: 11px;
     transition: background-color 0.2s ease-in;
     order: 1;
+    transition: transform 0.2s ease-in;
 }
 
 .dark-mode-btn::before {
@@ -229,11 +271,15 @@ body {
     height: 28px;
     border-radius: 50%;
     background-color: #fff;
-    transition: left 0.2s ease-in;
+    transition: left 0.1s ease-in;
 }
 
 .dark-mode-btn--active::before {
     left: 33px;
+}
+
+.dark-mode-btn:hover {
+    transform: scale(1.1)
 }
 
 .dark-mode-btn__icon {
@@ -257,11 +303,13 @@ body {
     color: #00B871;
     margin-bottom: 24px;
 }
+
 .header-heading {
     font-weight: 500;
     font-size: 48px;
     margin-bottom: 16px;
     line-height: 68px;
+    
 }
 
 .header-content p {
