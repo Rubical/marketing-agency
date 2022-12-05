@@ -96,6 +96,7 @@
      --who-we-are-btn-text: var(--white);
      --why-choose-us: var(--grey);
      --card-hover: var(--white);
+     --nav-details-hover: var(--white);
 }
 
 .dark {
@@ -108,6 +109,7 @@
     --who-we-are-btn-text: var(--black);
     --why-choose-us: var(--black);
     --card-hover: var(--purple);
+    --nav-details-hover: var(--purple);
     transition: all 0.3s ease-in;
 }
 
@@ -220,7 +222,7 @@ body {
     border-radius: 12px;
     position: absolute;
     z-index: 15;
-    background-color: #fff;
+    background-color: var(--advertising);
 }
 
 .nav-details-list-item {
@@ -230,7 +232,7 @@ body {
 }
 
 .nav-details-list-item:hover {
-    background-color: #F4FBF7;
+    background-color: var(--nav-details-hover);
     color: #00B871;
 }
 
@@ -389,6 +391,22 @@ details[open] > summary {
     display: flex;
     column-gap: 76px;
     justify-content: center;
+}
+
+path {
+    transition: fill 0.1s ease-in;
+}
+
+path:hover {
+    fill: #00B871;
+}
+
+.advert-svg {
+    transition: transform 0.2s ease-in;
+}
+
+.advert-svg:active {
+    transform: scale(1.1);
 }
 
 .bitbucket {
