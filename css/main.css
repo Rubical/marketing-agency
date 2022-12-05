@@ -393,11 +393,7 @@ details[open] > summary {
     justify-content: center;
 }
 
-path {
-    transition: fill 0.1s ease-in;
-}
-
-path:hover {
+.path-green {
     fill: #00B871;
 }
 
