@@ -61,30 +61,10 @@
                         <li class="nav-item"><a href="#s3" class="nav-link">Blog</a></li>
                     </ul>
                 </nav>
-                <a href="#!" class="btn modal-box--active"> 
+                <a href="#!" class="btn modal-box--active" data-path="modal"> 
                     <span class="nav-btn-text">Get your free website review</span> 
                     <img src="./img/icons/vector.svg" class="nav-vector" alt=""></a>
             </div>
-
-            <!-- Modal box -->
-
-            <aside class="modal-box">
-                <a href="#close"><img src="./img/icons/cross.svg" alt="" class="modal-box-close"></a>        
-                <div class="modal-box-container">
-                    <h3 class="modal-box-header">Get Your Free Website Checkup</h3>
-                    <p>Discover main benefits and issues of your website and how to fix them.</p>
-                    <form class="modal-box-content-form">
-                        <div class="modal-box-cridentials">
-                            <input type="text" placeholder="Full Name*">
-                            <input type="text" placeholder="Email Adress*">
-                            <input type="tel" placeholder="Phone Number">
-                            <input type="url" placeholder="Website Url">
-                        </div>
-                        <input class="input-message" type="text" placeholder="Message...">
-                        <button type="submit" class="btn">Get my free checkup</button>
-                    </form>
-                </div>
-            </aside>
 
             <!-- Header content -->
 
@@ -108,6 +88,28 @@
         </div>
     </header>
 
+     <!-- Modal box -->
+
+     <aside class="modal-box">
+        <div class="modal-box-overlay">   
+            <div class="modal-box-container" data-target="modal">
+                <a href="#!"><img src="./img/icons/cross.svg" alt="" class="modal-box-close"></a>
+                <h3 class="modal-box-header">Get Your Free Website Checkup</h3>
+                <p>Discover main benefits and issues of your website and how to fix them.</p>
+                <form class="modal-box-content-form">
+                    <div class="modal-box-cridentials">
+                        <input type="text" placeholder="Full Name*">
+                        <input type="text" placeholder="Email Adress*">
+                        <input type="tel" placeholder="Phone Number">
+                        <input type="url" placeholder="Website Url">
+                    </div>
+                    <input class="input-message" type="text" placeholder="Message...">
+                    <button type="submit" class="btn">Get my free checkup</button>
+                </form>
+            </div>
+        </div>
+    </aside>
+    
     <!-- Advertising -->
 
     <section class="advertising">
@@ -518,6 +520,6 @@
 
 
     <script src="./js/main.js"></script>
-    <script src="./js/brand-animation.js"></script>
+    <script src="./js/modal-box.js"></script>
 </body>
 </html>
