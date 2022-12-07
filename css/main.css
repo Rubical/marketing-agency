@@ -779,7 +779,7 @@ input:focus {
 }
 
 .what-we-do-card-block .card:hover {
-    background-color: var(--card-hover);
+    background-color: var(--nav-details-list-hover);
 }
 
 .tick {
