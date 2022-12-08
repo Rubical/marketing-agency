@@ -100,6 +100,7 @@
      --modal-box: var(--white);
      --nav-details-list: var(--white);
      --nav-details-list-hover: var(--grey);
+     --modal-box-close: var(--black);
 }
 
 .dark {
@@ -116,6 +117,7 @@
     --modal-box: var(--black);
     --nav-details-list: var(--black);
     --nav-details-list-hover: var(--purple);
+    --modal-box-close: var(--white);
 }
 
 body {
@@ -330,6 +332,7 @@ details[open] > summary {
 }
 
 .modal-box-close {
+    fill: var(--modal-box-close);
     margin-left: 655px; 
     transition: transform 0.2s ease-in;
 }
