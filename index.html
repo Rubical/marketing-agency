@@ -20,10 +20,10 @@
             <!-- Header nav -->
             
             <div class="header-nav">
-                <a href="/" class="logo">
+                <button href="#" class="logo">
                     <div class="logo-text">LOGO</div>
                     <span class="logo-background"></span>
-                    </a>
+                </button>
 
                     <button class="dark-mode-btn">
                         <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
@@ -33,28 +33,36 @@
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#s1" class="nav-link">Who are we</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link"> 
                             <details class="nav-details">
-                                <summary>What we do</summary>
+                                <summary class="nav-link">What we do</summary>
                                 <ul class="nav-details-list">   
                                     <li class="nav-details-list-item"> 
-                                        <img src="./img/icons/design.svg" alt="" class="nav-details-img">
-                                        <div class="nav-details-list-item-header">Design</div>
-                                        <p>Create & develope your brand</p>
+                                        <a href="#s11">
+                                            <img src="./img/icons/design.svg" alt="" class="nav-details-img">
+                                            <div class="nav-details-list-item-header">Design</div>
+                                            <p>Create & develope your brand</p>
+                                        </a>
                                      </li>
                                     <li class="nav-details-list-item">
-                                        <img src="./img/icons/digital.svg" alt="" class="nav-details-img">
-                                        <div class="nav-details-list-item-header">Digital Advertising</div>
-                                        <p>We grow your online visibility </p>
-                                    </li> <li class="nav-details-list-item">
-                                        <img src="./img/icons/seo.svg" alt="" class="nav-details-img">
-                                        <div class="nav-details-list-item-header">SEO</div>
-                                        <p>We grow you website position</p>
-                                    </li> <li class="nav-details-list-item">
-                                        <img src="./img/icons/social.svg" alt="" class="nav-details-img">
-                                        <div class="nav-details-list-item-header">Social Media</div>
-                                        <p>We manage you social media</p>
-                                    </li>
+                                        <a href="#s22">
+                                            <img src="./img/icons/digital.svg" alt="" class="nav-details-img">
+                                            <div class="nav-details-list-item-header">Digital Advertising</div>
+                                            <p>We grow your online visibility </p>
+                                        </a>
+                                    </li> 
+                                    <li class="nav-details-list-item">
+                                        <a href="#s33">
+                                            <img src="./img/icons/seo.svg" alt="" class="nav-details-img">
+                                            <div class="nav-details-list-item-header">SEO</div>
+                                            <p>We grow you website position</p>
+                                        </a>
+                                    </li> 
+                                    <li class="nav-details-list-item">
+                                        <a href="#s44">
+                                            <img src="./img/icons/social.svg" alt="" class="nav-details-img">
+                                            <div class="nav-details-list-item-header">Social Media</div>
+                                            <p>We manage you social media</p>
+                                        </a>
                                 </ul>
                              </details>
                             </li>
@@ -243,7 +251,7 @@
 
             <!-- Design -->
 
-            <div class="design-row">
+            <div class="design-row" id="s11">
                 <div class="img-block-design">
                     <img src="./img/whatwedo/design.png" alt="" class="design-img">
                     <img src="./img/services/webdesign.svg" alt="" class="webdesign">
@@ -283,7 +291,7 @@
 
             <!-- Digital advertising -->
             
-            <div class="dig-advert-row">
+            <div class="dig-advert-row" id="s22">
                 <div class="img-block-dig-advert">
                     <img src="./img/whatwedo/customs.png" alt="" class="dig-advert-img">
                     <img src="./img/services/googleads.svg" alt="" class="dig-advert-ads">
@@ -323,7 +331,7 @@
 
             <!-- SEO -->
 
-            <div class="seo-row">
+            <div class="seo-row" id="s33">
                 <div class="img-block-seo">
                     <img src="./img/whatwedo/advertising.png" alt="" class="seo-img">
                     <img src="./img/services/googlesearch.svg" alt="" class="seo-google-search">
@@ -363,7 +371,7 @@
             
             <!-- Social media -->
 
-            <div class="social-media-row">
+            <div class="social-media-row" id="s44">
                 <div class="img-block-social-media">
                     <img src="./img/whatwedo/socialmedia.png" alt="" class="social-media-img">
                     <img src="./img/services/instaads.svg" alt="" class="soc-med-inst-first">
@@ -464,11 +472,11 @@
     <section class="newsletter">
         <div class="container">
             <div class="newsletter-header">Stay update</div>
-            <p class="newsletter-text">Subscribe to our newsletter to receive ou best daily , week and month offer. </p>
-            <div class="newsletter-row">
-                <p class="newsletter-row-text">email adress</p>
+            <p class="newsletter-text">Subscribe to our newsletter to receive our best daily , week and month offer. </p>
+            <form class="newsletter-row">
+                <input class="newsletter-row-text" type="text" placeholder="email adress">
                 <a href="#!" class="btn">Susbscribe</a>
-            </div>
+            </form>
         </div>
     </section>
 
@@ -493,18 +501,24 @@
                 </ul>
                 <div class="contact-column">
                     <div class="contact-column-header">Contact</div>
-                    <div class="phone-number">+375 (29) 720-50-75</div>
-                    <div class="e-mail">zhpiv96@mail.ru</div>
+                    <div class="phone-number"><a href="tel:+375297205075">+375 (29) 720-50-75</a></div>
+                    <div class="e-mail"><a href="mailto:zhpiv96@mail.ru">zhpiv96@mail.ru</a></div>
                 </div>
                 <div class="socials-row">
-                    <a href="#!" class="socials">
-                        <img src="./img/socials/instagram.svg" alt="" class="socials-insta">
+                    <a href="https://www.instagram.com/" class="socials">
+                        <svg class="socials-insta" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.6223 6.32783C26.2169 6.32783 25.8205 6.44806 25.4834 6.67331C25.1463 6.89857 24.8835 7.21874 24.7284 7.59332C24.5732 7.96791 24.5326 8.3801 24.6117 8.77776C24.6908 9.17542 24.8861 9.5407 25.1728 9.82739C25.4595 10.1141 25.8247 10.3093 26.2224 10.3884C26.6201 10.4675 27.0323 10.4269 27.4068 10.2718C27.7814 10.1166 28.1016 9.85387 28.3268 9.51675C28.5521 9.17962 28.6723 8.78328 28.6723 8.37783C28.6723 7.83413 28.4564 7.31271 28.0719 6.92826C27.6875 6.54381 27.166 6.32783 26.6223 6.32783V6.32783ZM34.4807 10.462C34.4474 9.04459 34.182 7.64222 33.6948 6.31074C33.2605 5.17151 32.5844 4.13993 31.7132 3.28699C30.8672 2.41134 29.8333 1.73954 28.6894 1.32241C27.3615 0.820434 25.9575 0.548893 24.5382 0.519492C22.7273 0.416992 22.1465 0.416992 17.4998 0.416992C12.8532 0.416992 12.2723 0.416992 10.4615 0.519492C9.04214 0.548893 7.63822 0.820434 6.31025 1.32241C5.16853 1.74377 4.13543 2.41499 3.2865 3.28699C2.41086 4.13292 1.73906 5.16691 1.32192 6.31074C0.819945 7.6387 0.548404 9.04263 0.519004 10.462C0.416504 12.2728 0.416504 12.8537 0.416504 17.5003C0.416504 22.147 0.416504 22.7278 0.519004 24.5387C0.548404 25.958 0.819945 27.3619 1.32192 28.6899C1.73906 29.8337 2.41086 30.8677 3.2865 31.7137C4.13543 32.5857 5.16853 33.2569 6.31025 33.6782C7.63822 34.1802 9.04214 34.4518 10.4615 34.4812C12.2723 34.5837 12.8532 34.5837 17.4998 34.5837C22.1465 34.5837 22.7273 34.5837 24.5382 34.4812C25.9575 34.4518 27.3615 34.1802 28.6894 33.6782C29.8333 33.2611 30.8672 32.5893 31.7132 31.7137C32.5883 30.8639 33.2649 29.8314 33.6948 28.6899C34.182 27.3584 34.4474 25.9561 34.4807 24.5387C34.4807 22.7278 34.5832 22.147 34.5832 17.5003C34.5832 12.8537 34.5832 12.2728 34.4807 10.462V10.462ZM31.4057 24.3337C31.3932 25.4181 31.1968 26.4925 30.8248 27.5112C30.5521 28.2546 30.114 28.9264 29.5436 29.4757C28.9895 30.0404 28.3191 30.4776 27.579 30.757C26.5603 31.129 25.4859 31.3254 24.4015 31.3378C22.6932 31.4232 22.0611 31.4403 17.5682 31.4403C13.0753 31.4403 12.4432 31.4403 10.7348 31.3378C9.60886 31.3589 8.48769 31.1855 7.42067 30.8253C6.71305 30.5316 6.0734 30.0955 5.5415 29.5441C4.97449 28.9953 4.54186 28.3229 4.27734 27.5795C3.86026 26.5462 3.62893 25.4474 3.594 24.3337C3.594 22.6253 3.4915 21.9932 3.4915 17.5003C3.4915 13.0074 3.4915 12.3753 3.594 10.667C3.60166 9.55838 3.80404 8.45973 4.19192 7.42116C4.49267 6.70009 4.95429 6.05733 5.5415 5.54199C6.06052 4.95461 6.70195 4.48811 7.42067 4.17533C8.46199 3.79957 9.5595 3.60317 10.6665 3.59449C12.3748 3.59449 13.0069 3.49199 17.4998 3.49199C21.9928 3.49199 22.6248 3.49199 24.3332 3.59449C25.4176 3.60693 26.492 3.80333 27.5107 4.17533C28.287 4.46344 28.9838 4.93186 29.5436 5.54199C30.1034 6.06676 30.5408 6.70833 30.8248 7.42116C31.2045 8.46142 31.401 9.55962 31.4057 10.667C31.4911 12.3753 31.5082 13.0074 31.5082 17.5003C31.5082 21.9932 31.4911 22.6253 31.4057 24.3337ZM17.4998 8.73658C15.7673 8.73995 14.0746 9.25681 12.6356 10.2218C11.1967 11.1869 10.0761 12.5567 9.41538 14.1584C8.75469 15.7601 8.58357 17.5216 8.92365 19.2205C9.26373 20.9194 10.0997 22.4793 11.3261 23.7032C12.5524 24.9272 14.1139 25.7601 15.8135 26.0969C17.513 26.4337 19.2742 26.2591 20.8746 25.5953C22.475 24.9315 23.8427 23.8082 24.8049 22.3674C25.7671 20.9266 26.2807 19.2329 26.2807 17.5003C26.2829 16.3474 26.0572 15.2054 25.6165 14.14C25.1759 13.0746 24.5289 12.1068 23.7128 11.2923C22.8968 10.4779 21.9278 9.83278 20.8615 9.39416C19.7952 8.95555 18.6528 8.73207 17.4998 8.73658V8.73658ZM17.4998 23.1891C16.3747 23.1891 15.2748 22.8554 14.3393 22.2303C13.4038 21.6053 12.6747 20.7168 12.2441 19.6773C11.8135 18.6378 11.7009 17.494 11.9204 16.3905C12.1399 15.287 12.6817 14.2734 13.4773 13.4778C14.2729 12.6822 15.2865 12.1404 16.39 11.9209C17.4935 11.7014 18.6373 11.814 19.6768 12.2446C20.7163 12.6752 21.6048 13.4043 22.2299 14.3398C22.8549 15.2753 23.1886 16.3752 23.1886 17.5003C23.1886 18.2474 23.0414 18.9871 22.7556 19.6773C22.4697 20.3675 22.0506 20.9946 21.5224 21.5229C20.9941 22.0511 20.367 22.4702 19.6768 22.756C18.9866 23.0419 18.2469 23.1891 17.4998 23.1891V23.1891Z"/>
+                            </svg>                            
                     </a>
-                    <a href="#!" class="socials">
-                        <img src="./img/socials/facebook.svg" alt="" class="socials-facebook">
+                    <a href="https://www.facebook.com/" class="socials">
+                        <svg class="socials-facebook" width="19" height="35" viewBox="0 0 19 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.1639 6.08871H18.3756V0.65621C16.8206 0.494511 15.2581 0.414679 13.6947 0.417043C9.04806 0.417043 5.87056 3.25288 5.87056 8.44621V12.922H0.625977V19.0037H5.87056V34.5837H12.1572V19.0037H17.3847L18.1706 12.922H12.1572V9.04413C12.1572 7.25038 12.6356 6.08871 15.1639 6.08871Z"/>
+                            </svg>                            
                     </a>
-                    <a href="#!" class="socials">
-                        <img src="./img/socials/twitter.svg" alt="" class="socials-twitter">
+                    <a href="https://www.twitter.com/" class="socials">
+                        <svg class="socials-twitter" width="35" height="29" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M34.2497 3.90845C32.9656 4.46553 31.6076 4.83379 30.218 5.00178C31.6841 4.12595 32.7827 2.74812 33.3101 1.12386C31.9324 1.94397 30.4243 2.52179 28.8513 2.8322C27.7999 1.69201 26.3998 0.933037 24.8706 0.674319C23.3414 0.4156 21.7695 0.671768 20.4016 1.40265C19.0336 2.13352 17.9469 3.29777 17.312 4.71279C16.677 6.12781 16.5296 7.71357 16.893 9.22136C14.1074 9.08047 11.3827 8.35516 8.89571 7.09254C6.40874 5.82993 4.2152 4.05826 2.45759 1.89261C1.84112 2.96915 1.51719 4.18831 1.51801 5.42886C1.51582 6.58093 1.79855 7.71567 2.34101 8.73204C2.88347 9.74841 3.66883 10.6149 4.62717 11.2543C3.5133 11.224 2.42323 10.9251 1.44967 10.383V10.4684C1.45802 12.0826 2.02366 13.6444 3.05092 14.8896C4.07818 16.1347 5.50399 16.9868 7.08717 17.3018C6.47774 17.4872 5.845 17.585 5.20801 17.5922C4.76707 17.587 4.32723 17.5471 3.89259 17.4726C4.34344 18.8612 5.21591 20.0747 6.38859 20.9442C7.56128 21.8138 8.97587 22.2962 10.4355 22.3243C7.97073 24.2637 4.92764 25.3222 1.79134 25.3309C1.22031 25.3328 0.649723 25.2986 0.0830078 25.2284C3.28516 27.296 7.01681 28.3935 10.8284 28.3889C13.4587 28.4162 16.0681 27.9191 18.5042 26.9267C20.9402 25.9342 23.1541 24.4663 25.0165 22.6087C26.8789 20.7511 28.3524 18.541 29.3511 16.1075C30.3498 13.674 30.8536 11.0659 30.833 8.43553C30.833 8.14511 30.833 7.83761 30.833 7.53011C32.1735 6.53042 33.3297 5.30488 34.2497 3.90845Z"/>
+                            </svg>                            
                     </a>
                 </div>
             </div>

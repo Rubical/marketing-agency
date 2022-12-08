@@ -16,9 +16,18 @@ const modalCloseBtn = document.querySelector(".modal-box-close");
 modalBtns.forEach((el) => {
 el.addEventListener('click', (e) => {
     modalOverlay.classList.add('modal-box-overlay--visible');
+    document.body.style.overflow = 'hidden';
     })
 });
 
 modalCloseBtn.addEventListener('click', (e) => {
     modalOverlay.classList.remove('modal-box-overlay--visible');
+    document.body.style.overflow = 'auto';
     });
+
+// Logo reload page
+
+const logoBtn = document.querySelector('.logo');
+logoBtn.onclick = function () {
+    location.reload();
+}

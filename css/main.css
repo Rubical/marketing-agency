@@ -85,6 +85,9 @@
     --white: #fff;
     --grey: #F4FBF7;
     --purple: #0c172c;
+    --insta-gradient: linear-gradient(45deg, 
+    #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
+    #bc1888 100%);
 
      /* Light mode */
      --page-bg: var(--white);
@@ -101,6 +104,7 @@
      --nav-details-list: var(--white);
      --nav-details-list-hover: var(--grey);
      --modal-box-close: var(--black);
+     --nav-details-list-item: var(--black);
 }
 
 .dark {
@@ -118,6 +122,7 @@
     --nav-details-list: var(--black);
     --nav-details-list-hover: var(--purple);
     --modal-box-close: var(--white);
+    --nav-details-list-item: var(--white);
 }
 
 body {
@@ -126,6 +131,10 @@ body {
     font-weight: 400;
     background-color: var(--page-bg);
     color: var(--text-color);
+}
+
+img {
+pointer-events: none;
 }
 
 .container {
@@ -197,6 +206,16 @@ body {
     padding-top: 13px;
 }
 
+.nav-link:hover {
+    color: #777d89;
+    cursor: pointer;
+}
+
+.nav-link[open]{
+    color: #00B871;
+    
+}
+
 .nav-link {
     color: var(--nav-link);
     transition: color 0.1s ease-in;
@@ -236,11 +255,24 @@ body {
     padding: 16px 100px 16px 16px;
     list-style-position: inside;
     border-radius: 12px;
+    color: var(--nav-details-list-item);
+}
+
+
+.nav-details-list-item-header {
+    color: var(--nav-details-list-item);
+}
+
+.nav-details-list-item-header:hover {
+    color: #00B871;
+}
+
+.nav-details-list-item p {
+    color: var(--nav-details-list-item);
 }
 
 .nav-details-list-item:hover {
     background-color: var(--nav-details-list-hover);
-    color: #00B871;
 }
 
 .nav-details-img {
@@ -366,7 +398,7 @@ details[open] > summary {
     margin-bottom: 34px;
 }
 
-input {
+.modal-box-cridentials input {
     width: 300px;
     height: 50px;
     border: 2px solid #9FA6B2;
@@ -381,13 +413,17 @@ input {
     width: 640px;
     vertical-align: top;
     padding-bottom: 130px;
+    border: 2px solid #9FA6B2;
+    margin-bottom: 32px;
+    border-radius: 11px;
+    padding-left: 16px;
 }
 
-input:hover {
+.modal-box-content-form input:hover {
     box-shadow: 0px 0px 0px 4px #2FDF84;
 }
 
-input:focus {
+.modal-box-content-form input:focus {
     border: 3px solid #00B871;
 }
 
@@ -1065,18 +1101,22 @@ input:focus {
     height: 110px;
     box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
     border-radius: 4px;
-    padding: 24px 32px;
+    padding: 0 32px;
     justify-content: space-between;
 }
 
+.newsletter-row input {
+    width: 470px;
+    height: 110px;
+}
+
 .newsletter-row-text {
-    color: #9BA4B0;
     line-height: 28px;
-    margin-top: 17px;
     font-weight: 400;
 }
 
 .newsletter-row .btn {
+    margin-top: 24px;
     width: 197px;
     height: 62px;
     font-size: 24px;
@@ -1143,6 +1183,14 @@ input:focus {
     margin-right: 130px;
 }
 
+.contact-column a {
+    color: #00B871;
+}
+
+.contact-column a:hover{
+    color: #037549;
+}
+
 .contact-column-header {
     font-weight: 500;
     font-size: 18px;
@@ -1155,7 +1203,7 @@ input:focus {
     font-size: 18px;
     line-height: 26px;
     margin-bottom: 18px;
-    color: #00B871;
+    
 }
 
 .e-mail {
@@ -1165,16 +1213,40 @@ input:focus {
     color: #00B871;
 }
 
+
 .socials-insta {
     margin-right: 42px;
+    fill: #00B871;
+    transition: all 0.2s ease-in;
+}
+
+.socials-insta:hover {
+    fill: #037549;
+    transform: scale(1.15)
 }
 
 .socials-facebook {
     margin-right: 42px;
+    fill: #00B871;
+    transition: all 0.2s ease-in;
 }
 
+.socials-facebook:hover {
+    fill: #037549;
+    transform: scale(1.15)
+}
+
+
 .socials-twitter {
-    padding-top: 4px;
+    padding-top: 10px;
+    fill: #00B871;
+    transition: all 0.2s ease-in;
+
+}
+
+.socials-twitter:hover {
+    fill: #037549;
+    transform: scale(1.15)
 }
 
 hr {
