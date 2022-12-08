@@ -1170,6 +1170,10 @@ details[open] > summary {
     line-height: 28px;
 }
 
+.menu-link:hover {
+    color: #777d89;
+}
+
 .menu-item a {
     color: #fff;
 }
@@ -1269,4 +1273,8 @@ hr {
 
 .rules a {
     color: #fff;
+}
+
+.footer-terms:hover {
+    color: #777d89;
 }
