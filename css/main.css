@@ -179,7 +179,13 @@ pointer-events: none;
     height: 33px;
     position: relative;
     padding-top: 7px;
+    transition: transform 0.1s ease-in;
 }
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
 .logo-text {
     color: var(--logo);
     font-size: 12px;
