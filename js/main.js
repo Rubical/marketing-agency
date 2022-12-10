@@ -36,8 +36,15 @@ logoBtn.addEventListener('click', (e) => {
 // Mobile Nav
 
 const navBtn = document.querySelector('.nav-btn');
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.nav');
+const navBtnImg = document.querySelector('#nav-btn-img');
 
 navBtn.addEventListener('click', () => {
-nav.classList.add ('open');
+    if (nav.classList.toggle('open')) {
+        navBtnImg.src = './img/icons/nav-close.svg';
+    }
+    else {
+        navBtnImg.src = './img/icons/nav-open.svg';
+
+    }
 });
