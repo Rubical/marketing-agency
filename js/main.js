@@ -28,6 +28,16 @@ modalCloseBtn.addEventListener('click', (e) => {
 // Logo reload page
 
 const logoBtn = document.querySelector('.logo');
-logoBtn.onclick = function () {
+
+logoBtn.addEventListener('click', (e) => {
     location.reload();
-}
+});
+
+// Mobile Nav
+
+const navBtn = document.querySelector('.nav-btn');
+const nav = document.querySelector('nav');
+
+navBtn.addEventListener('click', () => {
+nav.classList.add ('open');
+});

@@ -22,11 +22,6 @@
         padding-left: 16px;
     }
 
-   .nav-btn {
-        position: fixed;
-        z-index: 15;
-   }
-
    .nav.open .btn {
         background-color: #2FDF84;
         width: 80%;
