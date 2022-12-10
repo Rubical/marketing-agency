@@ -25,12 +25,8 @@
                     <span class="logo-background"></span>
                 </button>
 
-                    <button class="dark-mode-btn">
-                        <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
-                        <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
-                    </button>
-
-                <nav class="nav">
+                <nav class="nav open">
+                    <div class="nav-wrapper open">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#s1" class="nav-link">Who are we</a></li>
                             <details class="nav-details">
@@ -67,12 +63,21 @@
                              </details>
                             </li>
                         <li class="nav-item"><a href="#s3" class="nav-link">Blog</a></li>
+                        
                     </ul>
+                    <a href="#!" class="btn modal-box--active" data-path="modal"> 
+                        <span class="nav-btn-text">Get your free website review</span> 
+                        <img src="./img/icons/vector.svg" class="nav-vector" alt=""></a>
+                    </div>
+                    <button class="nav-btn">
+                        <img src="./img/icons/nav-open.svg" alt="Nav button">
+                    </button>
                 </nav>
-                <a href="#!" class="btn modal-box--active" data-path="modal"> 
-                    <span class="nav-btn-text">Get your free website review</span> 
-                    <img src="./img/icons/vector.svg" class="nav-vector" alt=""></a>
             </div>
+            <button class="dark-mode-btn">
+                <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+            </button>
 
             <!-- Header content -->
 
@@ -486,10 +491,10 @@
         <div class="container">
             <div class="footer-row">
                 <div class="logo-column">
-                    <a href="/" class="logo">
+                    <button href="#" class="logo">
                         <div class="logo-text">LOGO</div>
                         <span class="logo-background"></span>
-                    </a>
+                    </button>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan, pellentesque aenean sed vel non suspendisse.</p>
                 </div>
                 <ul class="menu-column">
