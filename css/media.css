@@ -11,7 +11,7 @@
         z-index: 20;
         position: relative;
         width: 20px;
-        margin-top: 10px;
+        margin-top: 18px;
         margin-right: 10px;
     }
 
@@ -63,7 +63,7 @@
 
     .nav.open .nav-wrapper .nav-list details .nav-details-list {
         transform: translate(0, -30px);
-        width: 90%;
+        width: 95%;
 
     }
 
@@ -71,7 +71,9 @@
 
      .header-row {
         display: block;
+        margin-bottom: 60px;
     }
+
     .header-content {
         margin: 0 auto;
     }
@@ -127,7 +129,7 @@
 
     .modal-box-container {
         max-width: 90%;
-        max-height: 98%;
+        height: auto;
     }
 
     .modal-box-close {
@@ -143,6 +145,7 @@
 
     .modal-box-container p {
         width: 80%;
+        margin-bottom: 15px;
     }
 
     .modal-box-cridentials {
@@ -151,6 +154,7 @@
 
     .modal-box-cridentials input {
         width: 43%;
+        margin-bottom: 20px;
     }
 
     .input-message {
