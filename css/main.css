@@ -85,9 +85,7 @@
     --white: #fff;
     --grey: #F4FBF7;
     --purple: #0c172c;
-    --insta-gradient: linear-gradient(45deg, 
-    #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
-    #bc1888 100%);
+
 
      /* Light mode */
      --page-bg: var(--white);
@@ -171,12 +169,10 @@ pointer-events: none;
 .header-nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 74px;
 }
 .logo {
     display: flex;
-    width: 64px;
-    height: 33px;
+    padding-right: 64px;
     position: relative;
     padding-top: 7px;
     transition: transform 0.1s ease-in;
@@ -206,6 +202,14 @@ pointer-events: none;
 
 /* Nav */
 
+.nav-wrapper {
+    display: flex;
+}
+
+.nav-wrapper .btn {
+    margin-left: 150px;
+}
+
 .nav-list {
     display: flex;
     font-weight: 500;
@@ -227,17 +231,17 @@ pointer-events: none;
     transition: color 0.1s ease-in;
 }
 
-
-.nav-vector1 {
-    padding-top: 9px;
-}
-
 .nav-btn-text {
    padding: 14px 0 14px 32px;
 }
 
 .nav-vector {
   padding: 3px 32px 0 0;
+
+}
+
+.nav-btn {
+    display: none;
 }
 
 .nav-details-img-wrapper {
@@ -258,7 +262,7 @@ pointer-events: none;
 }
 
 .nav-details-list-item {
-    padding: 16px 100px 16px 16px;
+    padding: 16px 16px 16px 16px;
     list-style-position: inside;
     border-radius: 12px;
     color: var(--nav-details-list-item);
@@ -269,9 +273,6 @@ pointer-events: none;
     color: var(--nav-details-list-item);
 }
 
-.nav-details-list-item-header:hover {
-    color: #00B871;
-}
 
 .nav-details-list-item p {
     color: var(--nav-details-list-item);
@@ -284,6 +285,7 @@ pointer-events: none;
 .nav-details-img {
     float: left;
     padding-top: 4px;
+    padding-bottom: 16px;
     margin-right: 15px;
 }
 
@@ -306,6 +308,8 @@ details[open] > summary {
 }
 
 .dark-mode-btn {
+    margin-left: auto;
+    margin-bottom: 50px;
     position: relative;
     margin-top: 7px;
     display: flex;
@@ -1147,7 +1151,7 @@ details[open] > summary {
 }
 
 .logo {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
 }
 
 .logo-column .logo .logo-text {
