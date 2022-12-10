@@ -1,5 +1,9 @@
 @media (max-width: 1230px) {
 
+    .card {
+        box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
+    }
+
     /* Nav */ 
 
     .nav-wrapper {
@@ -140,9 +144,9 @@
 
     /* Why choose us */
 
-
     .why-choose-us {
-        padding-left: 25px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
   
     .why-choose-us-header {
@@ -173,7 +177,153 @@
         margin: 0 auto;
     }
 
+    /* Stats */
 
+    .stats-content {
+        padding: 75px 80px 55px 80px;
+    }
+    .stats-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stats-element {
+        padding-bottom: 30px;
+    }
+
+    /* Design */
+
+    .design-row {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    .img-block-design {
+        float: none;
+        margin: 0  auto;
+    }
+
+    .what-we-do-sect-header {
+        width: 70%;
+        margin-top: 20px;
+    }
+   
+
+    /* Dig advert */
+
+    .dig-advert-row {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .img-block-dig-advert {
+        float: none;
+        margin: 0  auto;
+        margin-bottom: 30px;
+    }
+
+
+    /* Seo */
+
+    .seo-row {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .img-block-seo {
+        float: none;
+        margin: 0  auto;
+        margin-bottom: 30px;
+    }
+
+
+    /* Soc media */
+
+    .social-media-row {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .img-block-social-media {
+        float: none;
+        margin: 0  auto;
+        margin-bottom: 30px;
+    }
+   
+
+    /* Box */
+
+    .box-row {
+        display: block;
+        text-align: center;
+    }
+
+
+    /* Blog */
+
+    .blog-card-row {
+        flex-wrap: wrap;
+    }
+    .blog-card {
+        width: 30%;
+        min-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;    }
+    .blog-card-img {
+        width: 100%;
+    }
+   
+    .blog-card-header {
+        width: 70%;
+    }
+
+
+    /* Newsletter */
+
+    .newsletter-row {
+        width: 98%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .newsletter-row .btn{
+        font-size: 12px;
+    }
+   
+
+    /* Footer */
+
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu-column {
+        margin-top: 25px;
+    }
+   
+    .contact-column {
+        margin-bottom: 25px;
+    }
+    
+    .socials-row {
+        margin-bottom: 25px;
+    }
+    
+    .footer-additional-row {
+        display: block;
+    }
+
+    .rules {
+        display: block;
+    }
+    .copyright {
+        margin-bottom: 20px;
+    }
+
+    .footer-terms {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    
 
 }
 
