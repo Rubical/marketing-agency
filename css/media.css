@@ -60,7 +60,7 @@
 
 
      .nav.open .nav-wrapper .nav-list details .nav-details-list {
-        transform: translate(0, 0);
+        transform: translate(0, -30px);
         width: 70%;
 
      }
