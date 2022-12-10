@@ -1,4 +1,7 @@
 @media (max-width: 1230px) {
+
+    /* Nav */ 
+
     .nav-wrapper {
         display: none;
     }
@@ -60,9 +63,11 @@
 
     .nav.open .nav-wrapper .nav-list details .nav-details-list {
         transform: translate(0, -30px);
-        width: 70%;
+        width: 90%;
 
     }
+
+    /* Header */
 
      .header-row {
         display: block;
@@ -80,6 +85,8 @@
         margin: 0 auto;
     }
 
+
+    /* Advertising*/
     
     .advertising {
         padding: 20px 0 10px 0;
@@ -114,22 +121,28 @@
 
 @media (max-width: 860px) {
 
-    .modal-box {
-    }
-    .modal-box-overlay {
-    }
+
+    /* Modal*/
+
+
     .modal-box-container {
+        max-width: 90%;
+        max-height: 98%;
     }
+
     .modal-box-close {
+        margin-top: 5px;
+        float: right;
+        margin-right: -30px;
+        margin-left: 0;
     }
+
     .modal-box-header {
+        width: 80%;
     }
 
     .modal-box-container p {
         width: 80%;
-    }
-
-    .modal-box-content-form { 
     }
 
     .modal-box-cridentials {
