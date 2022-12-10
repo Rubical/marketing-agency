@@ -40,11 +40,14 @@ const nav = document.querySelector('.nav');
 const navBtnImg = document.querySelector('#nav-btn-img');
 
 navBtn.addEventListener('click', () => {
+
     if (nav.classList.toggle('open')) {
         navBtnImg.src = './img/icons/nav-close.svg';
+        document.body.style.overflow = 'hidden';
     }
+    
     else {
         navBtnImg.src = './img/icons/nav-open.svg';
-
+        document.body.style.overflow = 'auto';
     }
 });
