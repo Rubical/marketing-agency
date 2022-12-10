@@ -123,6 +123,11 @@
     --nav-details-list-item: var(--white);
 }
 
+html {
+    overflow-x: hidden;
+
+}
+
 body {
     font-family: Gordita;
     font-size: 16px;
@@ -130,6 +135,7 @@ body {
     background-color: var(--page-bg);
     color: var(--text-color);
     overflow-x: hidden;
+
 }
 
 img {
