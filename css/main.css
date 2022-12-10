@@ -250,7 +250,7 @@ pointer-events: none;
 }
 
 .nav-details-list {
-    width: 28%;
+    width: 420px;
     margin-top: 13px;
     transform: translate(-120px, 0);
     padding: 24px;
