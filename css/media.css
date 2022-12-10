@@ -23,13 +23,14 @@
     }
 
    .nav-btn {
-    position: fixed;
-    z-index: 15;
+        position: fixed;
+        z-index: 15;
    }
 
    .nav.open .btn {
-    background-color: #2FDF84;
-    width: 80%;
+        background-color: #2FDF84;
+        width: 80%;
+        margin: 0 auto;
    }
 
     .nav.open .nav-wrapper .nav-list {
@@ -43,31 +44,18 @@
 
     .nav.open .nav-wrapper .nav-list .nav-item .nav-link {
         color: #fff;
+        margin-left: 25px;
 
     }
 
 
     .nav.open .nav-wrapper .nav-list details > summary {
         margin-left: 0px;
-        list-style: none;
         margin: 32px 0;
         color:#fff;
         
     }
 
-    .nav.open .nav-wrapper .nav-list details > summary::after {
-        content: "➤";
-        font-size: 18px;
-        font-weight: bold;
-        margin-left: 5px;
-     }
-
-     .nav.open .nav-wrapper .nav-list details[open] > summary::after {
-        content: "▼";
-        font-size: 20px;
-        font-weight: bold;
-        margin-left: 5px;
-     }
 
      .nav.open .nav-wrapper .nav-list details[open] summary {
         color:#fff;
