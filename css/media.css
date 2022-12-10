@@ -25,7 +25,7 @@
         padding-left: 16px;
     }
 
-   .nav.open .btn {
+    .nav.open .btn {
         background-color: #2FDF84;
         width: 80%;
         margin: 0 auto;
@@ -53,17 +53,100 @@
         
     }
 
-
-     .nav.open .nav-wrapper .nav-list details[open] summary {
+    .nav.open .nav-wrapper .nav-list details[open] summary {
         color:#fff;
-     }
+    }
 
 
-     .nav.open .nav-wrapper .nav-list details .nav-details-list {
+    .nav.open .nav-wrapper .nav-list details .nav-details-list {
         transform: translate(0, -30px);
         width: 70%;
 
-     }
+    }
+
+     .header-row {
+        display: block;
+    }
+    .header-content {
+        margin: 0 auto;
+    }
+
+    .btn {
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        display: block;
+        margin: 0 auto;
+    }
+
+    
+    .advertising {
+        padding: 20px 0 10px 0;
+        
+    }
+    .container {
+    }
+    .advertising-row {
+        flex-wrap: wrap;
+        line-height: 300%;
+    }
+    .bitbucket {
+        min-width: 80px;
+    }
+    .advert-svg {
+    }
+    .watch {
+        min-width: 80px;
+    }
+    .facebook {
+        min-width: 80px;
+    }
+    .atlassian {
+        min-width: 80px;
+    }
+    .audi {
+        min-width: 80px;
+    }
+
+
+}
+
+@media (max-width: 860px) {
+
+    .modal-box {
+    }
+    .modal-box-overlay {
+    }
+    .modal-box-container {
+    }
+    .modal-box-close {
+    }
+    .modal-box-header {
+    }
+
+    .modal-box-container p {
+        width: 80%;
+    }
+
+    .modal-box-content-form { 
+    }
+
+    .modal-box-cridentials {
+        column-gap: 15px;
+    }
+
+    .modal-box-cridentials input {
+        width: 43%;
+    }
+
+    .input-message {
+        width: 90%;
+    }
+    .modal-box-content-form .btn {
+        width: 60%;
+    }
+
 
 
 }

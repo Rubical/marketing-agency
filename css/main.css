@@ -349,9 +349,55 @@ details[open] > summary {
     z-index: 9;
 }
 
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.header-content {
+    margin-top: 70px;
+    max-width: 580px;
+
+}
+.header-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #00B871;
+    margin-bottom: 24px;
+}
+
+.header-heading {
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 16px;
+    line-height: 68px;
+    
+}
+
+.header-content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.header-content .btn {
+    width: 195px;
+    height: 56px;
+    font-size: 18px;
+}
+
+.header-img {
+    margin-right: -20px;
+}
+
+
+
 /* Modal box */
 
 .modal-box {
+    z-index: 100;
 }
 
 
@@ -366,6 +412,7 @@ details[open] > summary {
     padding-top: 20px;
     display: none;
     transition: all 0.3s ease-in;
+    z-index: 50;
 }
 
 .modal-box-overlay--visible {
@@ -384,8 +431,7 @@ details[open] > summary {
 }
 
 .modal-box-container {
-    width: 740px;
-    height: 680px;
+    max-width: 740px;
     margin: 0 auto;
     background-color: var(--modal-box);
     box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
@@ -449,89 +495,6 @@ details[open] > summary {
     padding-right: 4px;
 }
 
-/* Header content */
-
-.header-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 120px;
-}
-.header-content {
-    margin-top: 70px;
-    max-width: 580px;
-}
-.header-text {
-    font-weight: 500;
-    font-size: 16px;
-    color: #00B871;
-    margin-bottom: 24px;
-}
-
-.header-heading {
-    font-weight: 500;
-    font-size: 48px;
-    margin-bottom: 16px;
-    line-height: 68px;
-    
-}
-
-.header-content p {
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 32px;
-}
-
-.header-content .btn {
-    width: 195px;
-    height: 56px;
-    font-size: 18px;
-}
-
-.header-img {
-    width: 580px;
-    height: 610px;
-    position: relative;
-    margin-right: -20px;
-}
-
-.header-img-background {
-    position: absolute;
-    width: 359px;
-    height: 465px;
-    background-color: #00B871;
-    z-index: 1;
-    border-radius: 22px;
-    position: absolute;
-    left: 55px;
-    bottom: 37px;
-
-}
-.totalproduct {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 3;
-}
-.hero {
-    position: absolute;
-    left: 0;
-    bottom: 37px;
-    z-index: 4;
-}
-.useractivity {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 5;
-}
-
-.header-googleads {
-    position: absolute;
-    bottom: 100px;
-    right: 40px;
-    z-index: 3;
-}
-
 /* Service-advertising*/
 
 .advertising {
@@ -545,8 +508,6 @@ details[open] > summary {
     column-gap: 76px;
     justify-content: center;
 }
-
-
 
 .advert-svg {
    fill: #D2D6DC;
@@ -578,7 +539,7 @@ details[open] > summary {
 }
 
 .audi {
-    width: 100px;
+    max-width: 100px;
     height: auto;
     margin-top: 2px;
 }
