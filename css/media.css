@@ -78,7 +78,7 @@
         margin: 0 auto;
     }
 
-    .btn {
+   .header-content .btn {
         margin-bottom: 20px;
     }
 
@@ -117,6 +117,62 @@
     .audi {
         min-width: 80px;
     }
+
+    /* Who we are */
+
+    .who-we-are-row {
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .who-we-are-content {
+        margin: 0 auto;
+    }
+
+    .who-we-are-content .btn {
+        margin-bottom: 20px;
+    }
+    
+    .hero-who-we-are {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Why choose us */
+
+
+    .why-choose-us {
+        padding-left: 25px;
+    }
+  
+    .why-choose-us-header {
+        width: 80%;
+    }
+
+    .why-choose-us-row {
+        display: block;
+    }
+
+    .card-block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 55px;
+    }
+
+    .card {
+        width: 50%;
+        min-width: 400px;
+    }
+
+    .why-choose-us-content .btn {
+        display: none;
+    }
+
+    .why-choose-us-img {
+        display: block;
+        margin: 0 auto;
+    }
+
 
 
 }
