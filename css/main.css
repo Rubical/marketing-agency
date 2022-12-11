@@ -130,7 +130,6 @@ body {
     font-weight: 400;
     background-color: var(--page-bg);
     color: var(--text-color);
-
 }
 
 img {
@@ -419,6 +418,8 @@ details[open] > summary {
 
 .modal-box-overlay--visible {
     display: block;
+    height: 100vh;
+    overflow-y: hidden;
     transition: all 0.3s ease-in;
 }
 
