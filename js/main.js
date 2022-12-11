@@ -55,3 +55,13 @@ navBtn.addEventListener('click', () => {
 // AOS Lib
 
 AOS.init();
+
+// Modal links btn
+
+const navDetailtsBtn = document.querySelectorAll(".nav-details-btn");
+
+navDetailtsBtn.addEventListener('click', () => {
+    if(innerWidth <= 1230) {
+        nav.classList.toggle('open')
+}
+})

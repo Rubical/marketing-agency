@@ -383,6 +383,7 @@
 
     .modal-box-header {
         width: 80%;
+        height: fit-content;
     }
 
     .modal-box-container p {
