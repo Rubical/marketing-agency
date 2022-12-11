@@ -123,10 +123,6 @@
     --nav-details-list-item: var(--white);
 }
 
-html {
-    overflow-x: hidden;
-
-}
 
 body {
     font-family: Gordita;
@@ -134,7 +130,6 @@ body {
     font-weight: 400;
     background-color: var(--page-bg);
     color: var(--text-color);
-    overflow-x: hidden;
 
 }
 
@@ -762,7 +757,6 @@ details[open] > summary {
 .img-block-design {
     width: 405px;
     height: 582px;
-    margin-left: -20px;
     float: left;
     position: relative;
     margin-right: 68px;

@@ -89,6 +89,7 @@
     .hero {
         display: block;
         margin: 0 auto;
+        max-width: 95%;
     }
 
 
@@ -98,26 +99,28 @@
         padding: 20px 0 10px 0;
         
     }
-    .container {
-    }
+
     .advertising-row {
         flex-wrap: wrap;
         line-height: 300%;
     }
+
     .bitbucket {
         min-width: 80px;
     }
-    .advert-svg {
-    }
+  
     .watch {
         min-width: 80px;
     }
+
     .facebook {
         min-width: 80px;
     }
+
     .atlassian {
         min-width: 80px;
     }
+
     .audi {
         min-width: 80px;
     }
@@ -140,6 +143,7 @@
     .hero-who-we-are {
         display: block;
         margin: 0 auto;
+        max-width: 95%;
     }
 
     /* Why choose us */
@@ -161,10 +165,11 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 55px;
+        max-width: 95%;
     }
 
     .card {
-        width: 45%;
+        max-width: 40%;
         min-width: 400px;
     }
 
@@ -200,6 +205,12 @@
     .img-block-design {
         float: none;
         margin: 0  auto;
+        max-width: 95%
+    }
+
+    .design-img {
+        max-width: 100%;
+
     }
 
     .what-we-do-sect-header {
