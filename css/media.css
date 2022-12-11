@@ -2,7 +2,8 @@
 
     .card {
         box-shadow: 0px 6px 16px 4px rgba(47, 223, 132, 0.15);
-    }
+        min-width: 400px;
+        }
 
     /* Nav */ 
 
@@ -168,10 +169,7 @@
         max-width: 95%;
     }
 
-    .card {
-        max-width: 40%;
-        min-width: 400px;
-    }
+  
 
     .why-choose-us-content .btn {
         display: none;
@@ -230,6 +228,11 @@
         float: none;
         margin: 0  auto;
         margin-bottom: 30px;
+        max-width: 95%
+    }
+
+    .dig-advert-img {
+        max-width: 100%;
     }
 
 
@@ -244,6 +247,11 @@
         float: none;
         margin: 0  auto;
         margin-bottom: 30px;
+        max-width: 95%
+    }
+
+    .seo-img {
+        max-width: 100%;
     }
 
 
@@ -258,6 +266,11 @@
         float: none;
         margin: 0  auto;
         margin-bottom: 30px;
+        max-width: 95%
+    }
+
+    .social-media-img {
+        max-width: 100%;
     }
    
 
@@ -275,8 +288,8 @@
         flex-wrap: wrap;
     }
     .blog-card {
-        width: 30%;
-        min-width: 400px;
+        max-width: 400px;
+        min-width: min-content;
         margin: 0 auto;
         margin-bottom: 30px;    }
     .blog-card-img {
@@ -383,4 +396,12 @@
 
 
 
+}
+
+
+@media (max-width: 720px) {
+    .card {
+        min-width: max-content;
+        margin: 0 auto;
+    }
 }

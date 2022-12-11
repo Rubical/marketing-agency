@@ -721,6 +721,7 @@ details[open] > summary {
     font-size: 32px;
     line-height: 46px;
     margin-bottom: 48px;
+    max-width: 70%;
 }
 
 .what-we-do-card-block {
@@ -770,12 +771,6 @@ details[open] > summary {
     z-index: 2;
 }
 
-.webdesign {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 3;
-}
 
 /* Digital advertising */
 
@@ -797,12 +792,6 @@ details[open] > summary {
     border-radius: 30px;
 }
 
-.dig-advert-ads {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 
 /* SEO */
 
@@ -816,7 +805,6 @@ details[open] > summary {
     width: 431px;
     height: 602px;
     margin-right: 68px;
-    margin-left: -20px;
 }
 
 .seo-img {
@@ -826,11 +814,6 @@ details[open] > summary {
     right: 0;
 }
 
-.seo-google-search {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
 /* Social media */
 
@@ -845,29 +828,10 @@ details[open] > summary {
 .social-media-img {
     position: absolute;
     border-radius: 24px;
-    bottom: 0;
-    left: 50px;
-    width: 351px;
-    height: 461.92px;
+    width: 432px;
+    height: 582px;
 }
 
-.soc-med-inst-first {
-    position: absolute;
-    right: 0;
-    top: 100px;
-    z-index: 1;
-    width: 250px;
-    height: 250px;
-}
-
-.soc-med-inst-second {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 2;
-    width: 250px;
-    height: 250px;
-}
 
 /* Box */
 
