@@ -51,3 +51,7 @@ navBtn.addEventListener('click', () => {
         document.body.style.overflow = 'auto';
     }
 });
+
+// AOS Lib
+
+AOS.init();

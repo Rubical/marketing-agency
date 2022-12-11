@@ -41,6 +41,12 @@
         padding-left: 16px;
     }
 
+    .nav.open .nav-btn{
+        position: fixed;
+        right: 19px;
+        top: 14px;
+    }
+
     .nav.open .btn {
         background-color: #2FDF84;
         width: 80%;
